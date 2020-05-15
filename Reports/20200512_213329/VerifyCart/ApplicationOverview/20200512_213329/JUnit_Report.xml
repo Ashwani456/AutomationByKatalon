@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ApplicationOverview" time="72.758" tests="1" failures="0" errors="1">
+   <testsuite name="ApplicationOverview" tests="1" failures="0" errors="1" time="72.758" timestamp="2020-05-12 21:33:34" hostname="ashwa - LAPTOP-SR08S7PT" id="Test Suites/VerifyCart/ApplicationOverview">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\mannual doc\\ShopClues\\ShopClues\\Reports\\20200512_213329\\VerifyCart\\ApplicationOverview\\20200512_213329"/>
+         <property name="logFiles" value="G:\\mannual doc\\ShopClues\\ShopClues\\Reports\\20200512_213329\\VerifyCart\\ApplicationOverview\\20200512_213329\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ashwa - LAPTOP-SR08S7PT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Chrome 77.0.3865.120"/>
+         <property name="hostAddress" value="172.20.10.3"/>
+         <property name="sessionId" value="61abf309683abb62773d6306afbc7c83"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart" time="67.818" classname="Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart" status="ERROR">
+         <error type="ERROR" message="Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/ApplicationObjects/buttonNotiAllow', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589299409154.run(TempTestSuite1589299409154.groovy:36)
+"/>
+         <system-out><![CDATA[2020-05-12 21:33:34 - [TEST_CASE][ERROR] - Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart: Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/ApplicationObjects/buttonNotiAllow', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589299409154.run(TempTestSuite1589299409154.groovy:36)
+
+
+2020-05-12 21:33:35 - [TEST_STEP][PASSED] - openBrowser(environment): Browser is opened with url: 'https://www.shopclues.com/'
+
+2020-05-12 21:33:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-12 21:33:35 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2020-05-12 21:34:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.shopclues.com/'
+
+2020-05-12 21:34:12 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-05-12 21:34:12 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-05-12 21:34:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-12 21:34:21 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-12 21:34:21 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2020-05-12 21:34:35 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2020-05-12 21:34:35 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-05-12 21:34:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-12 21:34:36 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-05-12 21:34:41 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-05-12 21:34:41 - [TEST_STEP][PASSED] - click(findTestObject("ApplicationObjects/buttonNotiAllow"), 5): null]]></system-out>
+         <system-err><![CDATA[2020-05-12 21:33:34 - [TEST_CASE][ERROR] - Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart: Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/ApplicationObjects/buttonNotiAllow', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589299409154.run(TempTestSuite1589299409154.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-12 21:33:34 - [TEST_SUITE][ERROR] - ApplicationOverview: Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/ApplicationObjects/buttonNotiAllow', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589299409154.run(TempTestSuite1589299409154.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-05-12 21:33:34 - [TEST_SUITE][ERROR] - ApplicationOverview: Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/ApplicationObjects/buttonNotiAllow', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589299409154.run(TempTestSuite1589299409154.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

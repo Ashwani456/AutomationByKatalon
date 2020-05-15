@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ApplicationOverview" time="108.747" tests="1" failures="1" errors="0">
+   <testsuite name="ApplicationOverview" tests="1" failures="1" errors="0" time="108.747" timestamp="2020-05-12 23:54:31" hostname="ashwa - LAPTOP-SR08S7PT" id="Test Suites/VerifyCart/ApplicationOverview">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\mannual doc\\ShopClues\\ShopClues\\Reports\\20200512_235428\\VerifyCart\\ApplicationOverview\\20200512_235428"/>
+         <property name="logFiles" value="G:\\mannual doc\\ShopClues\\ShopClues\\Reports\\20200512_235428\\VerifyCart\\ApplicationOverview\\20200512_235428\\execution0.log"/>
+         <property name="attachments" value="G:\\mannual doc\\ShopClues\\ShopClues\\Reports\\20200512_235428\\VerifyCart\\ApplicationOverview\\20200512_235428\\1589307973792.png"/>
+         <property name="hostName" value="ashwa - LAPTOP-SR08S7PT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Chrome 77.0.3865.120"/>
+         <property name="hostAddress" value="172.20.10.3"/>
+         <property name="sessionId" value="aa927612574033e5bcb4ccec75b5bb2e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart" time="106.324" classname="Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ApplicationObjects/Discount Filter(40-60)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589307868432.run(TempTestSuite1589307868432.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ApplicationObjects/Discount Filter(40-60)' located by 'By.xpath: //input[@id='41 - 60%']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-12 23:54:32 - [TEST_CASE][FAILED] - Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart: Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ApplicationObjects/Discount Filter(40-60)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589307868432.run(TempTestSuite1589307868432.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ApplicationObjects/Discount Filter(40-60)' located by 'By.xpath: //input[@id='41 - 60%']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-12 23:54:32 - [TEST_STEP][PASSED] - openBrowser(environment): Browser is opened with url: 'https://www.shopclues.com/'
+
+2020-05-12 23:54:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-12 23:54:33 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2020-05-12 23:55:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.shopclues.com/'
+
+2020-05-12 23:55:10 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-05-12 23:55:10 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-05-12 23:55:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-12 23:55:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-12 23:55:14 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-12 23:55:14 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2020-05-12 23:55:19 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2020-05-12 23:55:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-12 23:55:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-12 23:55:21 - [TEST_STEP][PASSED] - click(findTestObject("ApplicationObjects/buttonNotiAllow")): Object: 'Object Repository/ApplicationObjects/buttonNotiAllow' is clicked on
+
+2020-05-12 23:55:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ApplicationObjects/buttonNotiAllow' is clicked on
+
+2020-05-12 23:55:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-12 23:55:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-12 23:55:25 - [TEST_STEP][PASSED] - focus(findTestObject("Object Repository/ApplicationObjects/HOME And KITCHEN")): Object: 'Object Repository/ApplicationObjects/HOME And KITCHEN' is focused
+
+2020-05-12 23:55:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ApplicationObjects/HOME And KITCHEN' is focused
+
+2020-05-12 23:55:26 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/ApplicationObjects/HOME And KITCHEN")): Object: 'Object Repository/ApplicationObjects/HOME And KITCHEN' is hovered
+
+2020-05-12 23:55:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ApplicationObjects/HOME And KITCHEN' is hovered
+
+2020-05-12 23:55:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-12 23:55:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-12 23:55:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ApplicationObjects/Wall Decor")): Object: 'Object Repository/ApplicationObjects/Wall Decor' is clicked on
+
+2020-05-12 23:55:31 - [MESSAGE][PASSED] - Object: 'Object Repository/ApplicationObjects/Wall Decor' is clicked on
+
+2020-05-12 23:55:31 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/ApplicationObjects/Discount Filter(40-60)")): Unable to click on object 'Object Repository/ApplicationObjects/Discount Filter(40-60)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ApplicationObjects/Discount Filter(40-60)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589307868432.run(TempTestSuite1589307868432.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ApplicationObjects/Discount Filter(40-60)' located by 'By.xpath: //input[@id='41 - 60%']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1589208762936.run(Script1589208762936.groovy:42)
+	... 13 more
+)
+
+2020-05-12 23:56:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='41 - 60%']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-12 23:56:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/ApplicationObjects/Discount Filter(40-60)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ApplicationObjects/Discount Filter(40-60)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589307868432.run(TempTestSuite1589307868432.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ApplicationObjects/Discount Filter(40-60)' located by 'By.xpath: //input[@id='41 - 60%']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1589208762936.run(Script1589208762936.groovy:42)
+	... 13 more
+)
+[[ATTACHMENT|G:\\mannual doc\\ShopClues\\ShopClues\\Reports\\20200512_235428\\VerifyCart\\ApplicationOverview\\20200512_235428\\1589307973792.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-12 23:54:32 - [TEST_CASE][FAILED] - Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart: Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ApplicationObjects/Discount Filter(40-60)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589307868432.run(TempTestSuite1589307868432.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ApplicationObjects/Discount Filter(40-60)' located by 'By.xpath: //input[@id='41 - 60%']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-12 23:54:31 - [TEST_SUITE][FAILED] - ApplicationOverview: Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ApplicationObjects/Discount Filter(40-60)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589307868432.run(TempTestSuite1589307868432.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ApplicationObjects/Discount Filter(40-60)' located by 'By.xpath: //input[@id='41 - 60%']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-12 23:54:31 - [TEST_SUITE][FAILED] - ApplicationOverview: Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ApplicationObjects/Discount Filter(40-60)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589307868432.run(TempTestSuite1589307868432.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ApplicationObjects/Discount Filter(40-60)' located by 'By.xpath: //input[@id='41 - 60%']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

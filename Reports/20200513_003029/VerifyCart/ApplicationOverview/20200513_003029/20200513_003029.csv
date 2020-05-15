@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ApplicationOverview,Chrome 77.0.3865.120,,,2020-05-13 00:30:33,2020-05-13 00:33:40,3m - 7.036s,FAILED
+,,,,,,,
+Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart,Chrome 77.0.3865.120,Check All Items and Elements Present,,2020-05-13 00:30:33,2020-05-13 00:33:40,3m - 6.675s,FAILED
+openBrowser(environment),Chrome 77.0.3865.120,,,2020-05-13 00:30:33,2020-05-13 00:31:02,28.454s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 77.0.3865.120,,,2020-05-13 00:31:02,2020-05-13 00:31:02,0.003s,PASSED
+waitForPageLoad(10),Chrome 77.0.3865.120,,,2020-05-13 00:31:02,2020-05-13 00:31:06,3.693s,PASSED
+maximizeWindow(),Chrome 77.0.3865.120,,,2020-05-13 00:31:06,2020-05-13 00:31:11,5.813s,PASSED
+deleteAllCookies(),Chrome 77.0.3865.120,,,2020-05-13 00:31:11,2020-05-13 00:31:21,9.433s,PASSED
+delay(2),Chrome 77.0.3865.120,,,2020-05-13 00:31:21,2020-05-13 00:31:23,2.140s,PASSED
+"click(findTestObject(""ApplicationObjects/buttonNotiAllow""))",Chrome 77.0.3865.120,,,2020-05-13 00:31:23,2020-05-13 00:31:26,2.624s,PASSED
+delay(2),Chrome 77.0.3865.120,,,2020-05-13 00:31:26,2020-05-13 00:31:28,2.008s,PASSED
+"focus(findTestObject(""Object Repository/ApplicationObjects/HOME And KITCHEN""))",Chrome 77.0.3865.120,,,2020-05-13 00:31:28,2020-05-13 00:31:29,0.979s,PASSED
+"mouseOver(findTestObject(""Object Repository/ApplicationObjects/HOME And KITCHEN""))",Chrome 77.0.3865.120,,,2020-05-13 00:31:29,2020-05-13 00:31:30,0.941s,PASSED
+delay(2),Chrome 77.0.3865.120,,,2020-05-13 00:31:30,2020-05-13 00:31:32,2.004s,PASSED
+"click(findTestObject(""Object Repository/ApplicationObjects/Wall Decor""))",Chrome 77.0.3865.120,,,2020-05-13 00:31:32,2020-05-13 00:31:34,2.154s,PASSED
+switchToWindowIndex(1),Chrome 77.0.3865.120,,,2020-05-13 00:31:34,2020-05-13 00:31:38,4.188s,PASSED
+delay(2),Chrome 77.0.3865.120,,,2020-05-13 00:31:38,2020-05-13 00:31:40,2.007s,PASSED
+"click(findTestObject(""Object Repository/ApplicationObjects/Discount Filter(40-60)""))",Chrome 77.0.3865.120,,,2020-05-13 00:31:40,2020-05-13 00:32:17,37.206s,PASSED
+"click(findTestObject(""Object Repository/ApplicationObjects/Price Filter(2501-5000)""))",Chrome 77.0.3865.120,,,2020-05-13 00:32:17,2020-05-13 00:32:49,32.339s,PASSED
+"click(findTestObject(""ApplicationObjects/remove ItemCart""))",Chrome 77.0.3865.120,,,2020-05-13 00:32:49,2020-05-13 00:33:40,50.125s,FAILED

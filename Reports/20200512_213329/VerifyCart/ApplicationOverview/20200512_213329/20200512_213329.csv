@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ApplicationOverview,Chrome 77.0.3865.120,,,2020-05-12 21:33:34,2020-05-12 21:34:42,1m - 8.201s,ERROR
+,,,,,,,
+Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart,Chrome 77.0.3865.120,Check All Items and Elements Present,,2020-05-12 21:33:34,2020-05-12 21:34:42,1m - 7.818s,ERROR
+openBrowser(environment),Chrome 77.0.3865.120,,,2020-05-12 21:33:35,2020-05-12 21:34:12,37.254s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 77.0.3865.120,,,2020-05-12 21:34:12,2020-05-12 21:34:12,0.009s,PASSED
+driver = getWebDriver(),Chrome 77.0.3865.120,,,2020-05-12 21:34:12,2020-05-12 21:34:12,0.365s,PASSED
+maximizeWindow(),Chrome 77.0.3865.120,,,2020-05-12 21:34:12,2020-05-12 21:34:21,8.330s,PASSED
+deleteAllCookies(),Chrome 77.0.3865.120,,,2020-05-12 21:34:21,2020-05-12 21:34:35,13.864s,PASSED
+waitForPageLoad(10),Chrome 77.0.3865.120,,,2020-05-12 21:34:35,2020-05-12 21:34:36,1.484s,PASSED
+delay(4),Chrome 77.0.3865.120,,,2020-05-12 21:34:36,2020-05-12 21:34:41,4.432s,PASSED
+"click(findTestObject(""ApplicationObjects/buttonNotiAllow""), 5)",Chrome 77.0.3865.120,,,2020-05-12 21:34:41,2020-05-12 21:34:42,1.001s,PASSED

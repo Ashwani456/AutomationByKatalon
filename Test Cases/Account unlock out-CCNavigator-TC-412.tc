@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Account unlock out-CCNavigator-TC-412</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ec39711-e78c-4619-a09e-48b95981422e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dbb0efc2-100a-4431-b066-9d293ab21579</id>
+      <masked>false</masked>
+      <name>enviroment</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ApplicationOverview,Chrome 77.0.3865.120,,,2020-05-12 23:54:31,2020-05-12 23:56:18,1m - 46.702s,FAILED
+,,,,,,,
+Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart,Chrome 77.0.3865.120,Check All Items and Elements Present,,2020-05-12 23:54:32,2020-05-12 23:56:18,1m - 46.324s,FAILED
+openBrowser(environment),Chrome 77.0.3865.120,,,2020-05-12 23:54:32,2020-05-12 23:55:10,37.411s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 77.0.3865.120,,,2020-05-12 23:55:10,2020-05-12 23:55:10,0.005s,PASSED
+waitForPageLoad(10),Chrome 77.0.3865.120,,,2020-05-12 23:55:10,2020-05-12 23:55:10,0.193s,PASSED
+maximizeWindow(),Chrome 77.0.3865.120,,,2020-05-12 23:55:10,2020-05-12 23:55:14,4.197s,PASSED
+deleteAllCookies(),Chrome 77.0.3865.120,,,2020-05-12 23:55:14,2020-05-12 23:55:19,4.636s,PASSED
+delay(2),Chrome 77.0.3865.120,,,2020-05-12 23:55:19,2020-05-12 23:55:21,2.058s,PASSED
+"click(findTestObject(""ApplicationObjects/buttonNotiAllow""))",Chrome 77.0.3865.120,,,2020-05-12 23:55:21,2020-05-12 23:55:23,1.998s,PASSED
+delay(2),Chrome 77.0.3865.120,,,2020-05-12 23:55:23,2020-05-12 23:55:25,2.007s,PASSED
+"focus(findTestObject(""Object Repository/ApplicationObjects/HOME And KITCHEN""))",Chrome 77.0.3865.120,,,2020-05-12 23:55:25,2020-05-12 23:55:26,0.928s,PASSED
+"mouseOver(findTestObject(""Object Repository/ApplicationObjects/HOME And KITCHEN""))",Chrome 77.0.3865.120,,,2020-05-12 23:55:26,2020-05-12 23:55:27,0.845s,PASSED
+delay(3),Chrome 77.0.3865.120,,,2020-05-12 23:55:27,2020-05-12 23:55:30,3.004s,PASSED
+"click(findTestObject(""Object Repository/ApplicationObjects/Wall Decor""))",Chrome 77.0.3865.120,,,2020-05-12 23:55:30,2020-05-12 23:55:31,1.808s,PASSED
+"click(findTestObject(""Object Repository/ApplicationObjects/Discount Filter(40-60)""))",Chrome 77.0.3865.120,,,2020-05-12 23:55:31,2020-05-12 23:56:18,46.679s,FAILED

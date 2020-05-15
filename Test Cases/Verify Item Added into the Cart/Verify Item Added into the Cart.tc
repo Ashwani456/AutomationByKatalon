@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check All Items and Elements Present</description>
+   <name>Verify Item Added into the Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b625a83d-22e2-48e6-b81a-9b9dc36429f3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>562bf452-6352-4ff4-a1c2-529f7d0f1d9f</id>
+      <masked>false</masked>
+      <name>environment</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2a842eb1-f949-4cfa-ad16-25ac7a6fe48d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>19482570-4d84-42b8-8f82-2891ad50cb3a</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

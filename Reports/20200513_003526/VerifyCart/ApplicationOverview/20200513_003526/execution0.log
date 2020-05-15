@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-05-13T00:35:28</date>
+  <millis>1589310328332</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/VerifyCart/ApplicationOverview</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">ApplicationOverview</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/VerifyCart/ApplicationOverview</property>
+</record>
+<record>
+  <date>2020-05-13T00:35:28</date>
+  <millis>1589310328365</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = ashwa - LAPTOP-SR08S7PT</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">ashwa - LAPTOP-SR08S7PT</property>
+</record>
+<record>
+  <date>2020-05-13T00:35:28</date>
+  <millis>1589310328391</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2020-05-13T00:35:28</date>
+  <millis>1589310328394</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 172.20.10.3</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.20.10.3</property>
+</record>
+<record>
+  <date>2020-05-13T00:35:28</date>
+  <millis>1589310328396</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.1.2.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.1.2.1</property>
+</record>
+<record>
+  <date>2020-05-13T00:35:28</date>
+  <millis>1589310328802</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart</property>
+  <property name="description">Check All Items and Elements Present</property>
+  <property name="id">Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart</property>
+  <property name="source">G:\\mannual doc\\ShopClues\\ShopClues\\Test Cases\\Verify Item Added into the Cart\\Verify Item Added into the Cart.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-05-13T00:35:28</date>
+  <millis>1589310328840</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>environment = https://www.shopclues.com/</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:35:28</date>
+  <millis>1589310328840</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>username = ashwanidemo@mailinator.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:35:28</date>
+  <millis>1589310328842</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>password = Tester@123</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:35:29</date>
+  <millis>1589310329349</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(environment)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-05-13T00:35:29</date>
+  <millis>1589310329636</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:35:29</date>
+  <millis>1589310329683</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 1 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:35:36</date>
+  <millis>1589310336762</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = a20b5f1af3a8db1167e214f5b8a72738</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">a20b5f1af3a8db1167e214f5b8a72738</property>
+</record>
+<record>
+  <date>2020-05-13T00:35:36</date>
+  <millis>1589310336839</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 77.0.3865.120</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 77.0.3865.120</property>
+</record>
+<record>
+  <date>2020-05-13T00:35:36</date>
+  <millis>1589310336842</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2020-05-13T00:35:36</date>
+  <millis>1589310336842</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2020-05-13T00:35:36</date>
+  <millis>1589310336842</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</property>
+</record>
+<record>
+  <date>2020-05-13T00:35:51</date>
+  <millis>1589310351394</millis>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://www.shopclues.com/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:35:51</date>
+  <millis>1589310351395</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(environment)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:35:51</date>
+  <millis>1589310351396</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : log = new com.kms.katalon.core.logging.KeywordLogger()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-05-13T00:35:51</date>
+  <millis>1589310351398</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : log = new com.kms.katalon.core.logging.KeywordLogger()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:35:51</date>
+  <millis>1589310351399</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad(10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-05-13T00:35:54</date>
+  <millis>1589310354541</millis>
+  <sequence>28</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:35:54</date>
+  <millis>1589310354542</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad(10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:35:54</date>
+  <millis>1589310354542</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-05-13T00:36:00</date>
+  <millis>1589310360148</millis>
+  <sequence>32</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:00</date>
+  <millis>1589310360149</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:00</date>
+  <millis>1589310360150</millis>
+  <sequence>34</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : deleteAllCookies()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-05-13T00:36:13</date>
+  <millis>1589310373601</millis>
+  <sequence>35</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delete all cookies successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:13</date>
+  <millis>1589310373602</millis>
+  <sequence>36</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : deleteAllCookies()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:13</date>
+  <millis>1589310373603</millis>
+  <sequence>37</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-05-13T00:36:15</date>
+  <millis>1589310375755</millis>
+  <sequence>39</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:15</date>
+  <millis>1589310375756</millis>
+  <sequence>40</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:15</date>
+  <millis>1589310375756</millis>
+  <sequence>41</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;ApplicationObjects/buttonNotiAllow\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-05-13T00:36:20</date>
+  <millis>1589310380212</millis>
+  <sequence>52</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ApplicationObjects/buttonNotiAllow&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:20</date>
+  <millis>1589310380213</millis>
+  <sequence>53</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;ApplicationObjects/buttonNotiAllow\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:20</date>
+  <millis>1589310380213</millis>
+  <sequence>54</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2020-05-13T00:36:22</date>
+  <millis>1589310382218</millis>
+  <sequence>56</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:22</date>
+  <millis>1589310382220</millis>
+  <sequence>57</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:22</date>
+  <millis>1589310382221</millis>
+  <sequence>58</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : focus(findTestObject(\&amp;quot;Object Repository/ApplicationObjects/HOME And KITCHEN\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2020-05-13T00:36:23</date>
+  <millis>1589310383812</millis>
+  <sequence>67</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ApplicationObjects/HOME And KITCHEN&amp;apos; is focused</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:23</date>
+  <millis>1589310383813</millis>
+  <sequence>68</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : focus(findTestObject(\&amp;quot;Object Repository/ApplicationObjects/HOME And KITCHEN\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:23</date>
+  <millis>1589310383814</millis>
+  <sequence>69</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : mouseOver(findTestObject(\&amp;quot;Object Repository/ApplicationObjects/HOME And KITCHEN\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2020-05-13T00:36:24</date>
+  <millis>1589310384817</millis>
+  <sequence>79</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ApplicationObjects/HOME And KITCHEN&amp;apos; is hovered</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:24</date>
+  <millis>1589310384819</millis>
+  <sequence>80</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : mouseOver(findTestObject(\&amp;quot;Object Repository/ApplicationObjects/HOME And KITCHEN\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:24</date>
+  <millis>1589310384820</millis>
+  <sequence>81</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2020-05-13T00:36:26</date>
+  <millis>1589310386826</millis>
+  <sequence>83</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:26</date>
+  <millis>1589310386827</millis>
+  <sequence>84</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:26</date>
+  <millis>1589310386827</millis>
+  <sequence>85</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/ApplicationObjects/Wall Decor\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2020-05-13T00:36:29</date>
+  <millis>1589310389386</millis>
+  <sequence>96</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ApplicationObjects/Wall Decor&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:29</date>
+  <millis>1589310389387</millis>
+  <sequence>97</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/ApplicationObjects/Wall Decor\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:29</date>
+  <millis>1589310389387</millis>
+  <sequence>98</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : switchToWindowIndex(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2020-05-13T00:36:34</date>
+  <millis>1589310394144</millis>
+  <sequence>101</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switched to window with index: &amp;apos;1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:34</date>
+  <millis>1589310394146</millis>
+  <sequence>102</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : switchToWindowIndex(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:34</date>
+  <millis>1589310394146</millis>
+  <sequence>103</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(4)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">43</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2020-05-13T00:36:38</date>
+  <millis>1589310398150</millis>
+  <sequence>105</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 4 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:38</date>
+  <millis>1589310398153</millis>
+  <sequence>106</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(4)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:38</date>
+  <millis>1589310398153</millis>
+  <sequence>107</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : doubleClick(findTestObject(\&amp;quot;Object Repository/ApplicationObjects/Discount Filter(40-60)\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2020-05-13T00:36:45</date>
+  <millis>1589310405547</millis>
+  <sequence>119</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to double click on object &amp;apos;Object Repository/ApplicationObjects/Discount Filter(40-60)&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to double click on object &amp;apos;Object Repository/ApplicationObjects/Discount Filter(40-60)&amp;apos;\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.doubleClick(DoubleClickKeyword.groovy:87)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.execute(DoubleClickKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.doubleClick(WebUiBuiltInKeywords.groovy:697)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$doubleClick$7.call(Unknown Source)\r\n\tat Verify Item Added into the Cart.run(Verify Item Added into the Cart:45)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1589310326071.run(TempTestSuite1589310326071.groovy:36)\r\nCaused by: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds\n  (Session info: chrome=77.0.3865.120)\nBuild info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;\nSystem info: host: &amp;apos;LAPTOP-SR08S7PT&amp;apos;, ip: &amp;apos;172.20.10.3&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\\Users\\ashwa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51408}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a20b5f1af3a8db1167e214f5b8a72738\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)\r\n\tat com.sun.proxy.$Proxy9.perform(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver.perform(EventFiringWebDriver.java:360)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.doCall(DoubleClickKeyword.groovy:80)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.call(DoubleClickKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.doubleClick(DoubleClickKeyword.groovy:87)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.execute(DoubleClickKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.doubleClick(WebUiBuiltInKeywords.groovy:697)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$doubleClick$7.call(Unknown Source)\r\n\tat Script1589208762936.run(Script1589208762936.groovy:45)\r\n\t... 13 more\r\n)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException</property>
+  <property name="attachment">1589310403390.png</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds\n  (Session info: chrome=77.0.3865.120)\nBuild info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;\nSystem info: host: &apos;LAPTOP-SR08S7PT&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\\Users\\ashwa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51408}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a20b5f1af3a8db1167e214f5b8a72738\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)\r\n\tat com.sun.proxy.$Proxy9.perform(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver.perform(EventFiringWebDriver.java:360)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.doCall(DoubleClickKeyword.groovy:80)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.call(DoubleClickKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.doubleClick(DoubleClickKeyword.groovy:87)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.execute(DoubleClickKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.doubleClick(WebUiBuiltInKeywords.groovy:697)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$doubleClick$7.call(Unknown Source)\r\n\tat Verify Item Added into the Cart.run(Verify Item Added into the Cart:45)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1589310326071.run(TempTestSuite1589310326071.groovy:36)\r\n</property>
+  <property name="failed.exception.message">move target out of bounds\n  (Session info: chrome=77.0.3865.120)\nBuild info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;\nSystem info: host: &apos;LAPTOP-SR08S7PT&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\\Users\\ashwa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51408}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a20b5f1af3a8db1167e214f5b8a72738</property>
+</record>
+<record>
+  <date>2020-05-13T00:36:45</date>
+  <millis>1589310405560</millis>
+  <sequence>120</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : doubleClick(findTestObject(\&amp;quot;Object Repository/ApplicationObjects/Discount Filter(40-60)\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:45</date>
+  <millis>1589310405564</millis>
+  <sequence>123</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Unable to double click on object &amp;apos;Object Repository/ApplicationObjects/Discount Filter(40-60)&amp;apos;\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.doubleClick(DoubleClickKeyword.groovy:87)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.execute(DoubleClickKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.doubleClick(WebUiBuiltInKeywords.groovy:697)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$doubleClick$7.call(Unknown Source)\r\n\tat Verify Item Added into the Cart.run(Verify Item Added into the Cart:45)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1589310326071.run(TempTestSuite1589310326071.groovy:36)\r\nCaused by: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds\n  (Session info: chrome=77.0.3865.120)\nBuild info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;\nSystem info: host: &amp;apos;LAPTOP-SR08S7PT&amp;apos;, ip: &amp;apos;172.20.10.3&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\\Users\\ashwa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51408}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a20b5f1af3a8db1167e214f5b8a72738\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)\r\n\tat com.sun.proxy.$Proxy9.perform(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver.perform(EventFiringWebDriver.java:360)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.doCall(DoubleClickKeyword.groovy:80)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.call(DoubleClickKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\t... 19 more\r\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to double click on object 'Object Repository/ApplicationObjects/Discount Filter(40-60)'</message>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword</class>
+      <method>doubleClick</method>
+      <line>87</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>72</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>doubleClick</method>
+      <line>697</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$doubleClick$7</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Verify Item Added into the Cart</class>
+      <method>run</method>
+      <line>45</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1589310326071</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds\n  (Session info: chrome=77.0.3865.120)\nBuild info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;\nSystem info: host: &apos;LAPTOP-SR08S7PT&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\\Users\\ashwa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51408}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a20b5f1af3a8db1167e214f5b8a72738\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)\r\n\tat com.sun.proxy.$Proxy9.perform(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver.perform(EventFiringWebDriver.java:360)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.doCall(DoubleClickKeyword.groovy:80)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.call(DoubleClickKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.doubleClick(DoubleClickKeyword.groovy:87)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.execute(DoubleClickKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.doubleClick(WebUiBuiltInKeywords.groovy:697)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$doubleClick$7.call(Unknown Source)\r\n\tat Verify Item Added into the Cart.run(Verify Item Added into the Cart:45)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1589310326071.run(TempTestSuite1589310326071.groovy:36)\r\n</property>
+  <property name="failed.exception.class">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException</property>
+  <property name="failed.exception.message">move target out of bounds\n  (Session info: chrome=77.0.3865.120)\nBuild info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;\nSystem info: host: &apos;LAPTOP-SR08S7PT&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\\Users\\ashwa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51408}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a20b5f1af3a8db1167e214f5b8a72738</property>
+</record>
+<record>
+  <date>2020-05-13T00:36:45</date>
+  <millis>1589310405580</millis>
+  <sequence>125</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:45</date>
+  <millis>1589310405583</millis>
+  <sequence>126</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:47</date>
+  <millis>1589310407307</millis>
+  <sequence>254</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: G:\\mannual doc\\ShopClues\\ShopClues\\Reports\\20200513_003526\\VerifyCart\\ApplicationOverview\\20200513_003526...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:47</date>
+  <millis>1589310407916</millis>
+  <sequence>255</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:47</date>
+  <millis>1589310407917</millis>
+  <sequence>256</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: G:\\mannual doc\\ShopClues\\ShopClues\\Reports\\20200513_003526\\VerifyCart\\ApplicationOverview\\20200513_003526...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:48</date>
+  <millis>1589310408001</millis>
+  <sequence>257</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:48</date>
+  <millis>1589310408001</millis>
+  <sequence>259</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-13T00:36:50</date>
+  <millis>1589310410823</millis>
+  <sequence>260</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/VerifyCart/ApplicationOverview</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

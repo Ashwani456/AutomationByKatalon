@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-05-12T21:16:52</date>
+  <millis>1589298412911</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/VerifyCart/ApplicationOverview</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">ApplicationOverview</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/VerifyCart/ApplicationOverview</property>
+</record>
+<record>
+  <date>2020-05-12T21:16:52</date>
+  <millis>1589298412942</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = ashwa - LAPTOP-SR08S7PT</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">ashwa - LAPTOP-SR08S7PT</property>
+</record>
+<record>
+  <date>2020-05-12T21:16:52</date>
+  <millis>1589298412944</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2020-05-12T21:16:52</date>
+  <millis>1589298412945</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 172.20.10.3</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.20.10.3</property>
+</record>
+<record>
+  <date>2020-05-12T21:16:52</date>
+  <millis>1589298412978</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.1.2.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.1.2.1</property>
+</record>
+<record>
+  <date>2020-05-12T21:16:53</date>
+  <millis>1589298413348</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart</property>
+  <property name="description">Check All Items and Elements Present</property>
+  <property name="id">Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart</property>
+  <property name="source">G:\\mannual doc\\ShopClues\\ShopClues\\Test Cases\\Verify Item Added into the Cart\\Verify Item Added into the Cart.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-05-12T21:16:53</date>
+  <millis>1589298413418</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>environment = https://www.shopclues.com/</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:16:53</date>
+  <millis>1589298413419</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>username = ashwanidemo@mailinator.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:16:53</date>
+  <millis>1589298413420</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>password = Tester@123</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:16:54</date>
+  <millis>1589298414008</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(environment)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-05-12T21:16:54</date>
+  <millis>1589298414362</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:16:54</date>
+  <millis>1589298414422</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 1 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:17:08</date>
+  <millis>1589298428788</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = f82719d32620b38e5f6441b302401933</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">f82719d32620b38e5f6441b302401933</property>
+</record>
+<record>
+  <date>2020-05-12T21:17:08</date>
+  <millis>1589298428837</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 77.0.3865.120</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 77.0.3865.120</property>
+</record>
+<record>
+  <date>2020-05-12T21:17:08</date>
+  <millis>1589298428837</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2020-05-12T21:17:08</date>
+  <millis>1589298428837</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2020-05-12T21:17:08</date>
+  <millis>1589298428841</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</property>
+</record>
+<record>
+  <date>2020-05-12T21:17:28</date>
+  <millis>1589298448655</millis>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://www.shopclues.com/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:17:28</date>
+  <millis>1589298448701</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(environment)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:17:28</date>
+  <millis>1589298448703</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : log = new com.kms.katalon.core.logging.KeywordLogger()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-05-12T21:17:28</date>
+  <millis>1589298448706</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : log = new com.kms.katalon.core.logging.KeywordLogger()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:17:28</date>
+  <millis>1589298448707</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-05-12T21:17:29</date>
+  <millis>1589298449718</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:17:29</date>
+  <millis>1589298449719</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-05-12T21:17:37</date>
+  <millis>1589298457172</millis>
+  <sequence>30</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:17:37</date>
+  <millis>1589298457173</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:17:37</date>
+  <millis>1589298457174</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : deleteAllCookies()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-05-12T21:17:50</date>
+  <millis>1589298470170</millis>
+  <sequence>33</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delete all cookies successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:17:50</date>
+  <millis>1589298470171</millis>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : deleteAllCookies()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:17:50</date>
+  <millis>1589298470172</millis>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad(10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-05-12T21:17:51</date>
+  <millis>1589298471934</millis>
+  <sequence>37</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:17:51</date>
+  <millis>1589298471935</millis>
+  <sequence>38</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad(10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:17:51</date>
+  <millis>1589298471936</millis>
+  <sequence>39</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/ApplicationObjects/buttonDontAllow\&amp;quot;), 5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-05-12T21:17:52</date>
+  <millis>1589298472580</millis>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/ApplicationObjects/buttonDontAllow\&amp;quot;), 5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:17:54</date>
+  <millis>1589298474395</millis>
+  <sequence>43</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.\nReason:\ngroovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - &amp;apos;Object Repository/ApplicationObjects/buttonDontAllow&amp;apos;, ...]\nPossible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()\r\n\tat Verify Item Added into the Cart.run(Verify Item Added into the Cart:31)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1589298406411.run(TempTestSuite1589298406411.groovy:36)\r\n</message>
+  <exception>
+    <message>groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/ApplicationObjects/buttonDontAllow', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()</message>
+    <frame>
+      <class>Verify Item Added into the Cart</class>
+      <method>run</method>
+      <line>31</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1589298406411</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - &apos;Object Repository/ApplicationObjects/buttonDontAllow&apos;, ...]\nPossible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()\r\n\tat Verify Item Added into the Cart.run(Verify Item Added into the Cart:31)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1589298406411.run(TempTestSuite1589298406411.groovy:36)\r\n</property>
+  <property name="failed.exception.class">groovy.lang.MissingMethodException</property>
+  <property name="failed.exception.message">No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - &apos;Object Repository/ApplicationObjects/buttonDontAllow&apos;, ...]\nPossible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()</property>
+</record>
+<record>
+  <date>2020-05-12T21:17:54</date>
+  <millis>1589298474459</millis>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:17:54</date>
+  <millis>1589298474462</millis>
+  <sequence>46</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:17:57</date>
+  <millis>1589298477190</millis>
+  <sequence>122</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: G:\\mannual doc\\ShopClues\\ShopClues\\Reports\\20200512_211646\\VerifyCart\\ApplicationOverview\\20200512_211646...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:17:57</date>
+  <millis>1589298477312</millis>
+  <sequence>123</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:17:57</date>
+  <millis>1589298477312</millis>
+  <sequence>124</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: G:\\mannual doc\\ShopClues\\ShopClues\\Reports\\20200512_211646\\VerifyCart\\ApplicationOverview\\20200512_211646...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:17:57</date>
+  <millis>1589298477356</millis>
+  <sequence>125</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:17:57</date>
+  <millis>1589298477357</millis>
+  <sequence>127</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T21:18:04</date>
+  <millis>1589298484988</millis>
+  <sequence>128</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/VerifyCart/ApplicationOverview</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

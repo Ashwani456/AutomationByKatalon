@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ApplicationOverview,Chrome 77.0.3865.120,,,2020-05-12 21:16:52,2020-05-12 21:17:54,1m - 1.548s,ERROR
+,,,,,,,
+Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart,Chrome 77.0.3865.120,Check All Items and Elements Present,,2020-05-12 21:16:53,2020-05-12 21:17:54,1m - 1.111s,ERROR
+openBrowser(environment),Chrome 77.0.3865.120,,,2020-05-12 21:16:54,2020-05-12 21:17:28,34.693s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 77.0.3865.120,,,2020-05-12 21:17:28,2020-05-12 21:17:28,0.003s,PASSED
+driver = getWebDriver(),Chrome 77.0.3865.120,,,2020-05-12 21:17:28,2020-05-12 21:17:29,1.011s,PASSED
+maximizeWindow(),Chrome 77.0.3865.120,,,2020-05-12 21:17:29,2020-05-12 21:17:37,7.454s,PASSED
+deleteAllCookies(),Chrome 77.0.3865.120,,,2020-05-12 21:17:37,2020-05-12 21:17:50,12.997s,PASSED
+waitForPageLoad(10),Chrome 77.0.3865.120,,,2020-05-12 21:17:50,2020-05-12 21:17:51,1.763s,PASSED
+"click(findTestObject(""Object Repository/ApplicationObjects/buttonDontAllow""), 5)",Chrome 77.0.3865.120,,,2020-05-12 21:17:51,2020-05-12 21:17:52,0.644s,PASSED

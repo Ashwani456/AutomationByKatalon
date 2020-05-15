@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ApplicationOverview,Chrome 77.0.3865.120,,,2020-05-13 00:21:44,2020-05-13 00:23:42,1m - 58.216s,FAILED
+,,,,,,,
+Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart,Chrome 77.0.3865.120,Check All Items and Elements Present,,2020-05-13 00:21:44,2020-05-13 00:23:42,1m - 57.817s,FAILED
+openBrowser(environment),Chrome 77.0.3865.120,,,2020-05-13 00:21:45,2020-05-13 00:22:21,36.254s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 77.0.3865.120,,,2020-05-13 00:22:21,2020-05-13 00:22:21,0.004s,PASSED
+waitForPageLoad(10),Chrome 77.0.3865.120,,,2020-05-13 00:22:21,2020-05-13 00:22:27,5.653s,PASSED
+maximizeWindow(),Chrome 77.0.3865.120,,,2020-05-13 00:22:27,2020-05-13 00:22:34,7.197s,PASSED
+deleteAllCookies(),Chrome 77.0.3865.120,,,2020-05-13 00:22:34,2020-05-13 00:22:44,10.330s,PASSED
+delay(2),Chrome 77.0.3865.120,,,2020-05-13 00:22:44,2020-05-13 00:22:46,2.077s,PASSED
+"click(findTestObject(""ApplicationObjects/buttonNotiAllow""))",Chrome 77.0.3865.120,,,2020-05-13 00:22:46,2020-05-13 00:22:49,3.113s,PASSED
+delay(2),Chrome 77.0.3865.120,,,2020-05-13 00:22:49,2020-05-13 00:22:51,2.009s,PASSED
+"focus(findTestObject(""Object Repository/ApplicationObjects/HOME And KITCHEN""))",Chrome 77.0.3865.120,,,2020-05-13 00:22:51,2020-05-13 00:22:52,0.780s,PASSED
+"mouseOver(findTestObject(""Object Repository/ApplicationObjects/HOME And KITCHEN""))",Chrome 77.0.3865.120,,,2020-05-13 00:22:52,2020-05-13 00:22:53,0.945s,PASSED
+delay(2),Chrome 77.0.3865.120,,,2020-05-13 00:22:53,2020-05-13 00:22:55,2.006s,PASSED
+"click(findTestObject(""Object Repository/ApplicationObjects/Wall Decor""))",Chrome 77.0.3865.120,,,2020-05-13 00:22:55,2020-05-13 00:22:57,1.914s,PASSED
+delay(2),Chrome 77.0.3865.120,,,2020-05-13 00:22:57,2020-05-13 00:22:59,2.009s,PASSED
+"click(findTestObject(""Object Repository/ApplicationObjects/Discount Filter(40-60)""))",Chrome 77.0.3865.120,,,2020-05-13 00:22:59,2020-05-13 00:23:42,42.899s,FAILED

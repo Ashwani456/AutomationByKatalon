@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ApplicationOverview" time="90.0" tests="1" failures="1" errors="0">
+   <testsuite name="ApplicationOverview" tests="1" failures="1" errors="0" time="90.0" timestamp="2020-05-12 21:42:59" hostname="ashwa - LAPTOP-SR08S7PT" id="Test Suites/VerifyCart/ApplicationOverview">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\mannual doc\\ShopClues\\ShopClues\\Reports\\20200512_214253\\VerifyCart\\ApplicationOverview\\20200512_214253"/>
+         <property name="logFiles" value="G:\\mannual doc\\ShopClues\\ShopClues\\Reports\\20200512_214253\\VerifyCart\\ApplicationOverview\\20200512_214253\\execution0.log"/>
+         <property name="attachments" value="G:\\mannual doc\\ShopClues\\ShopClues\\Reports\\20200512_214253\\VerifyCart\\ApplicationOverview\\20200512_214253\\1589300057075.png, G:\\mannual doc\\ShopClues\\ShopClues\\Reports\\20200512_214253\\VerifyCart\\ApplicationOverview\\20200512_214253\\1589300063962.png"/>
+         <property name="hostName" value="ashwa - LAPTOP-SR08S7PT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Chrome 77.0.3865.120"/>
+         <property name="hostAddress" value="172.20.10.3"/>
+         <property name="sessionId" value="e80460176bc8f7f3e63e578407b5d702"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart" time="84.678" classname="Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589299973684.run(TempTestSuite1589299973684.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-12 21:43:00 - [TEST_CASE][FAILED] - Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart: Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589299973684.run(TempTestSuite1589299973684.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-12 21:43:00 - [TEST_STEP][PASSED] - openBrowser(environment): Browser is opened with url: 'https://www.shopclues.com/'
+
+2020-05-12 21:43:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-12 21:43:01 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2020-05-12 21:43:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.shopclues.com/'
+
+2020-05-12 21:43:57 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-05-12 21:43:57 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-05-12 21:43:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-12 21:44:05 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-12 21:44:05 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2020-05-12 21:44:11 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2020-05-12 21:44:11 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-05-12 21:44:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-12 21:44:12 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-05-12 21:44:16 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-05-12 21:44:16 - [TEST_STEP][FAILED] - acceptAlert(): Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589299973684.run(TempTestSuite1589299973684.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-12 21:44:23 - [MESSAGE][FAILED] - No alert found (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589299973684.run(TempTestSuite1589299973684.groovy:36)
+)
+[[ATTACHMENT|G:\\mannual doc\\ShopClues\\ShopClues\\Reports\\20200512_214253\\VerifyCart\\ApplicationOverview\\20200512_214253\\1589300057075.png]]
+
+2020-05-12 21:44:25 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589299973684.run(TempTestSuite1589299973684.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|G:\\mannual doc\\ShopClues\\ShopClues\\Reports\\20200512_214253\\VerifyCart\\ApplicationOverview\\20200512_214253\\1589300063962.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-12 21:43:00 - [TEST_CASE][FAILED] - Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart: Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589299973684.run(TempTestSuite1589299973684.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-12 21:42:59 - [TEST_SUITE][FAILED] - ApplicationOverview: Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589299973684.run(TempTestSuite1589299973684.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-12 21:42:59 - [TEST_SUITE][FAILED] - ApplicationOverview: Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589299973684.run(TempTestSuite1589299973684.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

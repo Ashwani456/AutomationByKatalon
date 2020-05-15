@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>UserName</name>
+   <tag></tag>
+   <elementGuidId>0a84c2c0-962d-4b3b-ae54-f9c2dd8de00c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='main_user_login']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='main_user_login']</value>
+   </webElementProperties>
+</WebElementEntity>

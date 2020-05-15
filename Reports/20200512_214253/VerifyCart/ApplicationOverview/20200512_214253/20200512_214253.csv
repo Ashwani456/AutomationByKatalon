@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ApplicationOverview,Chrome 77.0.3865.120,,,2020-05-12 21:42:59,2020-05-12 21:44:25,1m - 25.091s,FAILED
+,,,,,,,
+Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart,Chrome 77.0.3865.120,Check All Items and Elements Present,,2020-05-12 21:43:00,2020-05-12 21:44:25,1m - 24.678s,FAILED
+openBrowser(environment),Chrome 77.0.3865.120,,,2020-05-12 21:43:00,2020-05-12 21:43:57,56.247s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 77.0.3865.120,,,2020-05-12 21:43:57,2020-05-12 21:43:57,0.003s,PASSED
+driver = getWebDriver(),Chrome 77.0.3865.120,,,2020-05-12 21:43:57,2020-05-12 21:43:58,1.047s,PASSED
+maximizeWindow(),Chrome 77.0.3865.120,,,2020-05-12 21:43:58,2020-05-12 21:44:05,7.194s,PASSED
+deleteAllCookies(),Chrome 77.0.3865.120,,,2020-05-12 21:44:05,2020-05-12 21:44:11,6.362s,PASSED
+waitForPageLoad(10),Chrome 77.0.3865.120,,,2020-05-12 21:44:11,2020-05-12 21:44:12,0.839s,PASSED
+delay(4),Chrome 77.0.3865.120,,,2020-05-12 21:44:12,2020-05-12 21:44:16,4.147s,PASSED
+acceptAlert(),Chrome 77.0.3865.120,,,2020-05-12 21:44:16,2020-05-12 21:44:25,8.285s,FAILED

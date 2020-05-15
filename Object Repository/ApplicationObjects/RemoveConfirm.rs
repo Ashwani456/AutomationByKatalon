@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>RemoveConfirm</name>
+   <tag></tag>
+   <elementGuidId>a2ed6b3f-8919-4725-8352-7be47f364f68</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//a[contains(@class,'remove')])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//a[contains(@class,'remove')])[1]</value>
+   </webElementProperties>
+</WebElementEntity>

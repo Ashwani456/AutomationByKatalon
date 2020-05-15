@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ApplicationOverview" time="189.009" tests="1" failures="1" errors="0">
+   <testsuite name="ApplicationOverview" tests="1" failures="1" errors="0" time="189.009" timestamp="2020-05-13 00:30:33" hostname="ashwa - LAPTOP-SR08S7PT" id="Test Suites/VerifyCart/ApplicationOverview">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\mannual doc\\ShopClues\\ShopClues\\Reports\\20200513_003029\\VerifyCart\\ApplicationOverview\\20200513_003029"/>
+         <property name="logFiles" value="G:\\mannual doc\\ShopClues\\ShopClues\\Reports\\20200513_003029\\VerifyCart\\ApplicationOverview\\20200513_003029\\execution0.log"/>
+         <property name="attachments" value="G:\\mannual doc\\ShopClues\\ShopClues\\Reports\\20200513_003029\\VerifyCart\\ApplicationOverview\\20200513_003029\\1589310218974.png"/>
+         <property name="hostName" value="ashwa - LAPTOP-SR08S7PT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Chrome 77.0.3865.120"/>
+         <property name="hostAddress" value="172.20.10.3"/>
+         <property name="sessionId" value="4908e30d98513d2d8bcc4ec81d7ea61b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart" time="186.675" classname="Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ApplicationObjects/remove ItemCart'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589310029377.run(TempTestSuite1589310029377.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ApplicationObjects/remove ItemCart' located by 'By.xpath: (//a[contains(@class,'remove')])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-13 00:30:33 - [TEST_CASE][FAILED] - Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart: Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ApplicationObjects/remove ItemCart'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589310029377.run(TempTestSuite1589310029377.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ApplicationObjects/remove ItemCart' located by 'By.xpath: (//a[contains(@class,'remove')])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-13 00:30:33 - [TEST_STEP][PASSED] - openBrowser(environment): Browser is opened with url: 'https://www.shopclues.com/'
+
+2020-05-13 00:30:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-13 00:30:34 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2020-05-13 00:31:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.shopclues.com/'
+
+2020-05-13 00:31:02 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2020-05-13 00:31:02 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-05-13 00:31:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-05-13 00:31:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-13 00:31:11 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-13 00:31:11 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2020-05-13 00:31:21 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2020-05-13 00:31:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-13 00:31:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-13 00:31:23 - [TEST_STEP][PASSED] - click(findTestObject("ApplicationObjects/buttonNotiAllow")): Object: 'Object Repository/ApplicationObjects/buttonNotiAllow' is clicked on
+
+2020-05-13 00:31:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ApplicationObjects/buttonNotiAllow' is clicked on
+
+2020-05-13 00:31:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-13 00:31:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-13 00:31:28 - [TEST_STEP][PASSED] - focus(findTestObject("Object Repository/ApplicationObjects/HOME And KITCHEN")): Object: 'Object Repository/ApplicationObjects/HOME And KITCHEN' is focused
+
+2020-05-13 00:31:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ApplicationObjects/HOME And KITCHEN' is focused
+
+2020-05-13 00:31:29 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/ApplicationObjects/HOME And KITCHEN")): Object: 'Object Repository/ApplicationObjects/HOME And KITCHEN' is hovered
+
+2020-05-13 00:31:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ApplicationObjects/HOME And KITCHEN' is hovered
+
+2020-05-13 00:31:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-13 00:31:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-13 00:31:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ApplicationObjects/Wall Decor")): Object: 'Object Repository/ApplicationObjects/Wall Decor' is clicked on
+
+2020-05-13 00:31:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ApplicationObjects/Wall Decor' is clicked on
+
+2020-05-13 00:31:34 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-05-13 00:31:38 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-05-13 00:31:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-05-13 00:31:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-05-13 00:31:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ApplicationObjects/Discount Filter(40-60)")): Object: 'Object Repository/ApplicationObjects/Discount Filter(40-60)' is clicked on
+
+2020-05-13 00:31:47 - [MESSAGE][ERROR] - move target out of bounds
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-SR08S7PT', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ashwa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50219}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4908e30d98513d2d8bcc4ec81d7ea61b
+
+2020-05-13 00:32:17 - [MESSAGE][ERROR] - move target out of bounds
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-SR08S7PT', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ashwa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50219}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4908e30d98513d2d8bcc4ec81d7ea61b
+
+2020-05-13 00:32:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ApplicationObjects/Discount Filter(40-60)' is clicked on
+
+2020-05-13 00:32:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ApplicationObjects/Price Filter(2501-5000)")): Object: 'Object Repository/ApplicationObjects/Price Filter(2501-5000)' is clicked on
+
+2020-05-13 00:32:19 - [MESSAGE][ERROR] - move target out of bounds
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-SR08S7PT', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ashwa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50219}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4908e30d98513d2d8bcc4ec81d7ea61b
+
+2020-05-13 00:32:49 - [MESSAGE][ERROR] - move target out of bounds
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-SR08S7PT', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ashwa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50219}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4908e30d98513d2d8bcc4ec81d7ea61b
+
+2020-05-13 00:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ApplicationObjects/Price Filter(2501-5000)' is clicked on
+
+2020-05-13 00:32:49 - [TEST_STEP][FAILED] - click(findTestObject("ApplicationObjects/remove ItemCart")): Unable to click on object 'Object Repository/ApplicationObjects/remove ItemCart' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ApplicationObjects/remove ItemCart'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589310029377.run(TempTestSuite1589310029377.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ApplicationObjects/remove ItemCart' located by 'By.xpath: (//a[contains(@class,'remove')])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1589208762936.run(Script1589208762936.groovy:47)
+	... 13 more
+)
+
+2020-05-13 00:33:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//a[contains(@class,'remove')])[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-13 00:33:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/ApplicationObjects/remove ItemCart' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ApplicationObjects/remove ItemCart'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589310029377.run(TempTestSuite1589310029377.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ApplicationObjects/remove ItemCart' located by 'By.xpath: (//a[contains(@class,'remove')])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1589208762936.run(Script1589208762936.groovy:47)
+	... 13 more
+)
+[[ATTACHMENT|G:\\mannual doc\\ShopClues\\ShopClues\\Reports\\20200513_003029\\VerifyCart\\ApplicationOverview\\20200513_003029\\1589310218974.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-13 00:30:33 - [TEST_CASE][FAILED] - Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart: Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ApplicationObjects/remove ItemCart'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589310029377.run(TempTestSuite1589310029377.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ApplicationObjects/remove ItemCart' located by 'By.xpath: (//a[contains(@class,'remove')])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-13 00:30:33 - [TEST_SUITE][FAILED] - ApplicationOverview: Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ApplicationObjects/remove ItemCart'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589310029377.run(TempTestSuite1589310029377.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ApplicationObjects/remove ItemCart' located by 'By.xpath: (//a[contains(@class,'remove')])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-13 00:30:33 - [TEST_SUITE][FAILED] - ApplicationOverview: Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ApplicationObjects/remove ItemCart'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Item Added into the Cart.run(Verify Item Added into the Cart:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1589310029377.run(TempTestSuite1589310029377.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ApplicationObjects/remove ItemCart' located by 'By.xpath: (//a[contains(@class,'remove')])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

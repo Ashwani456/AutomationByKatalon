@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ApplicationOverview,Chrome 77.0.3865.120,,,2020-05-12 20:45:17,2020-05-12 20:46:42,1m - 25.312s,ERROR
+,,,,,,,
+Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart,Chrome 77.0.3865.120,Check All Items and Elements Present,,2020-05-12 20:45:17,2020-05-12 20:46:42,1m - 24.976s,ERROR
+openBrowser(environment),Chrome 77.0.3865.120,,,2020-05-12 20:45:18,2020-05-12 20:46:07,49.028s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 77.0.3865.120,,,2020-05-12 20:46:07,2020-05-12 20:46:07,0.195s,PASSED
+driver = getWebDriver(),Chrome 77.0.3865.120,,,2020-05-12 20:46:07,2020-05-12 20:46:07,0.446s,PASSED
+maximizeWindow(),Chrome 77.0.3865.120,,,2020-05-12 20:46:07,2020-05-12 20:46:16,8.374s,PASSED
+deleteAllCookies(),Chrome 77.0.3865.120,,,2020-05-12 20:46:16,2020-05-12 20:46:38,22.227s,PASSED
+waitForPageLoad(10),Chrome 77.0.3865.120,,,2020-05-12 20:46:38,2020-05-12 20:46:41,2.802s,PASSED
+"mouseOver(findTestObject(""Object Repository/ApplicationObjects/HOME And KITCHEN""), 2)",Chrome 77.0.3865.120,,,2020-05-12 20:46:41,2020-05-12 20:46:42,0.884s,PASSED

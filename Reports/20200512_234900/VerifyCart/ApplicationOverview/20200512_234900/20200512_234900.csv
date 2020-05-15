@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ApplicationOverview,Chrome 77.0.3865.120,,,2020-05-12 23:49:03,2020-05-12 23:50:09,1m - 5.676s,ERROR
+,,,,,,,
+Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart,Chrome 77.0.3865.120,Check All Items and Elements Present,,2020-05-12 23:49:04,2020-05-12 23:50:09,1m - 5.283s,ERROR
+openBrowser(environment),Chrome 77.0.3865.120,,,2020-05-12 23:49:04,2020-05-12 23:49:46,41.388s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 77.0.3865.120,,,2020-05-12 23:49:46,2020-05-12 23:49:46,0.006s,PASSED
+waitForPageLoad(10),Chrome 77.0.3865.120,,,2020-05-12 23:49:46,2020-05-12 23:49:48,2.706s,PASSED
+maximizeWindow(),Chrome 77.0.3865.120,,,2020-05-12 23:49:48,2020-05-12 23:49:53,4.715s,PASSED
+deleteAllCookies(),Chrome 77.0.3865.120,,,2020-05-12 23:49:53,2020-05-12 23:50:00,6.768s,PASSED
+delay(2),Chrome 77.0.3865.120,,,2020-05-12 23:50:00,2020-05-12 23:50:02,2.078s,PASSED
+"click(findTestObject(""ApplicationObjects/buttonNotiAllow""))",Chrome 77.0.3865.120,,,2020-05-12 23:50:02,2020-05-12 23:50:04,2.375s,PASSED
+delay(4),Chrome 77.0.3865.120,,,2020-05-12 23:50:04,2020-05-12 23:50:08,4.007s,PASSED
+"mouseOver(findTestObject(""Object Repository/ApplicationObjects/HOME And KITCHEN""), 2)",Chrome 77.0.3865.120,,,2020-05-12 23:50:08,2020-05-12 23:50:09,0.155s,PASSED

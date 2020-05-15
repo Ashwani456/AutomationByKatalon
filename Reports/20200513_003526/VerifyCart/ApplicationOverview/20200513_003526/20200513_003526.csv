@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ApplicationOverview,Chrome 77.0.3865.120,,,2020-05-13 00:35:28,2020-05-13 00:36:45,1m - 17.248s,FAILED
+,,,,,,,
+Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart,Chrome 77.0.3865.120,Check All Items and Elements Present,,2020-05-13 00:35:28,2020-05-13 00:36:45,1m - 16.778s,FAILED
+openBrowser(environment),Chrome 77.0.3865.120,,,2020-05-13 00:35:29,2020-05-13 00:35:51,22.046s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 77.0.3865.120,,,2020-05-13 00:35:51,2020-05-13 00:35:51,0.002s,PASSED
+waitForPageLoad(10),Chrome 77.0.3865.120,,,2020-05-13 00:35:51,2020-05-13 00:35:54,3.143s,PASSED
+maximizeWindow(),Chrome 77.0.3865.120,,,2020-05-13 00:35:54,2020-05-13 00:36:00,5.607s,PASSED
+deleteAllCookies(),Chrome 77.0.3865.120,,,2020-05-13 00:36:00,2020-05-13 00:36:13,13.452s,PASSED
+delay(2),Chrome 77.0.3865.120,,,2020-05-13 00:36:13,2020-05-13 00:36:15,2.153s,PASSED
+"click(findTestObject(""ApplicationObjects/buttonNotiAllow""))",Chrome 77.0.3865.120,,,2020-05-13 00:36:15,2020-05-13 00:36:20,4.457s,PASSED
+delay(2),Chrome 77.0.3865.120,,,2020-05-13 00:36:20,2020-05-13 00:36:22,2.007s,PASSED
+"focus(findTestObject(""Object Repository/ApplicationObjects/HOME And KITCHEN""))",Chrome 77.0.3865.120,,,2020-05-13 00:36:22,2020-05-13 00:36:23,1.592s,PASSED
+"mouseOver(findTestObject(""Object Repository/ApplicationObjects/HOME And KITCHEN""))",Chrome 77.0.3865.120,,,2020-05-13 00:36:23,2020-05-13 00:36:24,1.005s,PASSED
+delay(2),Chrome 77.0.3865.120,,,2020-05-13 00:36:24,2020-05-13 00:36:26,2.007s,PASSED
+"click(findTestObject(""Object Repository/ApplicationObjects/Wall Decor""))",Chrome 77.0.3865.120,,,2020-05-13 00:36:26,2020-05-13 00:36:29,2.560s,PASSED
+switchToWindowIndex(1),Chrome 77.0.3865.120,,,2020-05-13 00:36:29,2020-05-13 00:36:34,4.759s,PASSED
+delay(4),Chrome 77.0.3865.120,,,2020-05-13 00:36:34,2020-05-13 00:36:38,4.007s,PASSED
+"doubleClick(findTestObject(""Object Repository/ApplicationObjects/Discount Filter(40-60)""))",Chrome 77.0.3865.120,,,2020-05-13 00:36:38,2020-05-13 00:36:45,7.407s,FAILED

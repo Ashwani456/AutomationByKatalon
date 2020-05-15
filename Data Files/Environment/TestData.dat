@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Urls,UserName,Password</description>
+   <name>TestData</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>b6a772b2-3a7d-46b0-8c79-c406ed061800</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>https%3A%2F%2Fwww.shopclues.com%2F ashwanidemo%40mailinator.com Tester%40123</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>environment</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>username</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>password</name>
+      <size>1</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-05-12T20:43:06</date>
+  <millis>1589296386829</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/VerifyCart/ApplicationOverview</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">ApplicationOverview</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/VerifyCart/ApplicationOverview</property>
+</record>
+<record>
+  <date>2020-05-12T20:43:06</date>
+  <millis>1589296386847</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = ashwa - LAPTOP-SR08S7PT</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">ashwa - LAPTOP-SR08S7PT</property>
+</record>
+<record>
+  <date>2020-05-12T20:43:06</date>
+  <millis>1589296386848</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2020-05-12T20:43:06</date>
+  <millis>1589296386849</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 172.20.10.3</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.20.10.3</property>
+</record>
+<record>
+  <date>2020-05-12T20:43:06</date>
+  <millis>1589296386851</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.1.2.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.1.2.1</property>
+</record>
+<record>
+  <date>2020-05-12T20:43:07</date>
+  <millis>1589296387237</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart</property>
+  <property name="description">Check All Items and Elements Present</property>
+  <property name="id">Test Cases/Verify Item Added into the Cart/Verify Item Added into the Cart</property>
+  <property name="source">G:\\mannual doc\\ShopClues\\ShopClues\\Test Cases\\Verify Item Added into the Cart\\Verify Item Added into the Cart.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-05-12T20:43:07</date>
+  <millis>1589296387275</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>environment = https://www.shopclues.com/</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T20:43:07</date>
+  <millis>1589296387276</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>username = ashwanidemo@mailinator.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T20:43:07</date>
+  <millis>1589296387276</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>password = Tester@123</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-12T20:43:07</date>
+  <millis>1589296387860</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(environment)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+</record>
